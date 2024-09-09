@@ -1,0 +1,10 @@
+name: dart_ffi_with_c
+version: 0.0.1
+description: Example on how to call hello world function from C using Dart FFI.
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  path: ^1.9.0
