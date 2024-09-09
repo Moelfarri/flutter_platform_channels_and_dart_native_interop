@@ -1,0 +1,6 @@
+name: HelloWorld
+description: Bindings to `c_hello_library/hello_world.h`.
+output: "hello_world.dart"
+headers:
+  entry-points:
+    - "c_hello_library/hello_world.h"

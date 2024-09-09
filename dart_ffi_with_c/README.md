@@ -6,11 +6,16 @@ using Dart FFI. The source used to create this comes from:
 
 ## Usage
 
-Run application in JIT with `dart --enable-experiment=native-assets run`.
-
-Run tests with `dart --enable-experiment=native-assets test`.
-
-run application in AOT with `dart --enable-experiment=native-assets build bin/native_add_app`. (Run with `./bin/native_add_app/native_add_app.exe`.)
+```bash
+cd c_hello_library
+cmake .
+...
+make
+...
+cd ..
+dart pub get
+dart run hello_world.dart
+```
 
 | Source file                     | Description                                                                    |
 | ------------------------------- | ------------------------------------------------------------------------------ |
