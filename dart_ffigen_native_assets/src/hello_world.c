@@ -1,7 +1,7 @@
 // example taken from: https://github.com/dart-lang/samples/tree/main/ffi/hello_world
 
 #include <stdio.h>
-#include "dart_ffigen_native_assets.h"
+#include "hello_world.h"
 
 int main()
 {

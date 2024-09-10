@@ -1,10 +1,10 @@
 {
-  "timestamp": "2024-09-10 11:50:24.000",
+  "timestamp": "2024-09-10 13:43:12.000",
   "assets": [
     {
       "architecture": "arm64",
-      "file": "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/.dart_tool/native_assets_builder/c49c549bb646ff4511814bd684b5aabd/out/libdart_ffigen_native_assets.dylib",
-      "id": "package:dart_ffigen_native_assets/dart_ffigen_native_assets.dart",
+      "file": "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/.dart_tool/native_assets_builder/c49c549bb646ff4511814bd684b5aabd/out/libhello_world.dylib",
+      "id": "package:dart_ffigen_native_assets/hello_world.dart",
       "link_mode": {
         "type": "dynamic_loading_bundle"
       },
@@ -13,7 +13,7 @@
     }
   ],
   "dependencies": [
-    "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/src/dart_ffigen_native_assets.c"
+    "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/src/hello_world.c"
   ],
   "version": "1.2.0"
 }
