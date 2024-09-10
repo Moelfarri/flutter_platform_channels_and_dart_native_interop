@@ -20,20 +20,3 @@ void main(List<String> args) async {
     );
   });
 }
-
-extension on BuildConfig {
-  List<String> dynamicLinkingFlags(String libraryName) => switch (targetOS) {
-        OS.macOS => [
-            '-L${outputDirectory.toFilePath()}',
-            '-l$libraryName',
-          ],
-        OS.linux => [
-            '-Wl,-rpath=\$ORIGIN/.',
-            '-L${outputDirectory.toFilePath()}',
-            '-l$libraryName',
-          ],
-        // TODO(https://github.com/dart-lang/native/issues/1415): Enable support
-        // for Windows once linker flags are supported by CBuilder.
-        _ => throw UnimplementedError('Unsupported OS: $targetOS'),
-      };
-}
