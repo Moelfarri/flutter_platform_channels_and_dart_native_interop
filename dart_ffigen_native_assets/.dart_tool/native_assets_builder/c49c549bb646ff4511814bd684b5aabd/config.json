@@ -1,0 +1,13 @@
+{
+  "build_mode": "release",
+  "link_mode_preference": "dynamic",
+  "out_dir": "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/.dart_tool/native_assets_builder/c49c549bb646ff4511814bd684b5aabd/out/",
+  "package_name": "dart_ffigen_native_assets",
+  "package_root": "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/",
+  "supported_asset_types": [
+    "native_code"
+  ],
+  "target_architecture": "arm64",
+  "target_os": "macos",
+  "version": "1.2.0"
+}

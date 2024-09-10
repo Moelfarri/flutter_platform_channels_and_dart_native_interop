@@ -1,0 +1,19 @@
+# Run with `flutter pub run ffigen --config ffigen.yaml`.
+name: NativeHelloWorldBindings
+description: |
+  Bindings for `src/dart_ffigen_native_assets.h`.
+  Regenerate bindings with `flutter pub run ffigen --config ffigen.yaml`.
+output: "lib/dart_ffigen_native_assets.dart"
+headers:
+  entry-points:
+    - "src/dart_ffigen_native_assets.h"
+  include-directives:
+    - "src/dart_ffigen_native_assets.h"
+preamble: |
+  // Copyright (c) 2023, the Dart project authors.  Please see the AUTHORS file
+  // for details. All rights reserved. Use of this source code is governed by a
+  // BSD-style license that can be found in the LICENSE file.
+comments:
+  style: any
+  length: full
+ffi-native:

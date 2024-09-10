@@ -1,0 +1,19 @@
+{
+  "timestamp": "2024-09-10 11:50:24.000",
+  "assets": [
+    {
+      "architecture": "arm64",
+      "file": "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/.dart_tool/native_assets_builder/c49c549bb646ff4511814bd684b5aabd/out/libdart_ffigen_native_assets.dylib",
+      "id": "package:dart_ffigen_native_assets/dart_ffigen_native_assets.dart",
+      "link_mode": {
+        "type": "dynamic_loading_bundle"
+      },
+      "os": "macos",
+      "type": "native_code"
+    }
+  ],
+  "dependencies": [
+    "/Users/eliaselfarri/MyFolders/Development/playground/Flutter/flutter_platform_channels_and_dart_native_interop/dart_ffigen_native_assets/src/dart_ffigen_native_assets.c"
+  ],
+  "version": "1.2.0"
+}
