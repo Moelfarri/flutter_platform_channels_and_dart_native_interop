@@ -13,3 +13,8 @@ void hello_world()
 {
     printf("Hello World\n");
 }
+
+void printText(char *text)
+{
+    printf("%s\n", text);
+}

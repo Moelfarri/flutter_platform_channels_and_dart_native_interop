@@ -8,6 +8,4 @@ void main() {
   );
 
   helloWorld.hello_world();
-
-  ;
 }

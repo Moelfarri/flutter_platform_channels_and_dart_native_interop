@@ -27,4 +27,18 @@ class HelloWorld {
   late final _hello_worldPtr =
       _lookup<ffi.NativeFunction<ffi.Void Function()>>('hello_world');
   late final _hello_world = _hello_worldPtr.asFunction<void Function()>();
+
+  void printText(
+    ffi.Pointer<ffi.Char> text,
+  ) {
+    return _printText(
+      text,
+    );
+  }
+
+  late final _printTextPtr =
+      _lookup<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<ffi.Char>)>>(
+          'printText');
+  late final _printText =
+      _printTextPtr.asFunction<void Function(ffi.Pointer<ffi.Char>)>();
 }
