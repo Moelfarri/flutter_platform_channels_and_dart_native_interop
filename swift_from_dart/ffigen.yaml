@@ -1,0 +1,13 @@
+name: SwiftLibrary
+description: Bindings for swift_hello_world.
+language: objc
+output: "lib/swift_hello_world_api_bindings.dart"
+exclude-all-by-default: true
+objc-interfaces:
+  include:
+    - "SwiftClass"
+  module:
+    "SwiftClass": "swift_module"
+headers:
+  entry-points:
+    - "src/hello_world.h"

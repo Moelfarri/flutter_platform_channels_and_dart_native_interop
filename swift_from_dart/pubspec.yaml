@@ -1,4 +1,4 @@
-name: dart_ffigen_native_assets
+name: swift_from_dart
 publish_to: none
 description: Says hello world
 version: 0.1.0
@@ -8,9 +8,7 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
-  logging: ^1.1.1
-  native_assets_cli: ^0.7.3
-  native_toolchain_c: ^0.5.3
+  path: ^1.9.0
 
 dev_dependencies:
   ffigen: ^8.0.2
